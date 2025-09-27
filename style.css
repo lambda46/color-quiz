@@ -40,7 +40,7 @@ h1 {
 }
 
 /* 画面幅が 600px 以下のとき（スマホ想定） */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   #color-contents {
     width: 100%;                  /* 幅を画面いっぱいに */
     height: auto;                 /* 高さを自動に */
