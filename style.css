@@ -1,0 +1,40 @@
+#color-contents {
+  margin :32px auto;
+  width: 780px;
+  height: 400px;
+  user-select: none;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.card {
+  width: 180px;
+  height: 180px;
+  border: none;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
+.card p {
+  margin: 0;
+  font-size: 30px;
+  line-height: 180px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#question p {
+  margin: 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+#result {
+  margin: 0;
+  font-size: 30px;
+  text-align: center;
+}
