@@ -50,7 +50,7 @@ h1 {
   }
 
   .card {
-    width: 100%;                  /* グリッド内で自動調整 */
+    width: 20px;                  /* グリッド内で自動調整 */
     aspect-ratio: 1 / 1;          /* 正方形を維持 */
     height: auto;                 /* 明示的な高さ指定を解除 */
     border-radius: 10px;
