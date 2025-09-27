@@ -38,3 +38,32 @@ h1 {
   font-size: 30px;
   text-align: center;
 }
+
+/* 画面幅が 600px 以下のとき（スマホ想定） */
+@media screen and (max-width: 600px) {
+  #color-contents {
+    width: 100%;                  /* 幅を画面いっぱいに */
+    height: auto;                 /* 高さを自動に */
+    grid-template-columns: repeat(2, 1fr); /* 2列にする */
+    grid-gap: 12px;               /* 隙間を少し狭く */
+    margin: 16px auto;            /* 上下マージンも少し縮める */
+  }
+
+  .card {
+    width: 100%;                  /* グリッド内で自動調整 */
+    aspect-ratio: 1 / 1;          /* 正方形を維持 */
+    height: auto;                 /* 明示的な高さ指定を解除 */
+    border-radius: 10px;
+  }
+
+  .card p {
+    font-size: 18px;
+    line-height: normal;          /* 固定の line-height を解除 */
+    padding: 40% 0;               /* 縦中央に近づける */
+  }
+
+  #question p,
+  #result {
+    font-size: 20px;              /* 問題と結果の文字も少し小さく */
+  }
+}
